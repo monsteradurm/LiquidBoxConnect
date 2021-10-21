@@ -1,10 +1,6 @@
-// It's OK to write comments in this JSON configuration file,
-// comments will be stripped when this file is loaded.
 {
-    // "development" is the default environment.
-    // To change, set NODE_ENV (http://expressjs.com/api.html#app.configure).
     "development": {
-        "port": 3000,
+        "port": "3000",
         "errorTemplate": true,
         "store": {
             "adapter": "sequelize",
@@ -14,9 +10,9 @@
         }
     },
     "production": {
-        "port": "$PORT",
+        "port": "3000",
         "errorTemplate": true,
-        "localBaseUrl": "https://my-subdomain.herokuapp.com",
+        "localBaseUrl": "https://liquidanimation.live/LiquidBoxConnect",
         "store": {
             "adapter": "sequelize",
             "dialect": "sqlite3",
