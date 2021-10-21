@@ -1,0 +1,66 @@
+body {
+    overflow: overlay !important;
+}
+#content {
+    border-left: solid 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px;
+    padding: 40px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 1px 20px 0px rgb(0 0 0 / 50%);
+}
+.css-1u1y90w {
+    /* @atlaskit/breadcrumbs container */
+    margin-bottom:15px !important;
+}
+.css-1we84oz {
+    /* breadcrumb */
+    font-size:20px;
+    color: #005380;
+}
+
+.css-1we84oz:hover {
+    /* breadcrumb hover */
+    color: #0094e4;
+}
+
+.box-folder-container {
+    display: flex;
+    color: #005380;
+    cursor: pointer;
+    text-decoration: none;
+    padding:2px;
+}
+
+.box-file-container {
+    display: flex;
+    color: #005380;
+    cursor: pointer;
+    text-decoration: none;
+    padding:2px;
+}
+
+.bow-row {
+    width:100%;
+    padding:5px;
+}
+
+.box-folder-container:hover, .box-file-container:hover {
+    color:#0094e4 !important;
+}
+
+.box-folder {
+    color: inerhit;
+    font-size:17px;
+    margin-left:10px;
+}
+
+.box-file {
+    color: inerhit;
+    font-size:17px;
+    margin-left:10px;
+}
+
+
+/*# sourceMappingURL=/box.css.map */
