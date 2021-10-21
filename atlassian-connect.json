@@ -1,0 +1,36 @@
+{
+    "key": "LiquidBoxConnect",
+    "name": "Liquid Box Connect",
+    "description": "Connect Confluence to Liquid Box",
+    "baseUrl": "{{localBaseUrl}}",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "scopes": [
+        "READ"
+    ],
+    "apiMigrations":{
+        "signed-install": true
+    },
+    "modules": {
+        "dynamicContentMacros": [
+            {
+              "width": "500px",
+              "url": "/box?body={macro.id}&space={space.id}&spaceKey={space.key}&title={page.title}",
+              "description": {
+                "value": "Connect Confluene to Liquid Box for given space/page"
+              },
+              "outputType": "block",
+              "bodyType": "none",
+              "featured": false,
+              "name": {
+                "value": "Liquid Box Connect Folder"
+              },
+              "key": "liquid-box-connect-folder"
+            }
+          ]
+    }
+}
