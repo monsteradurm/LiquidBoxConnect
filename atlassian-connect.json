@@ -2,7 +2,7 @@
     "key": "LiquidBoxConnect",
     "name": "Liquid Box Connect",
     "description": "Connect Confluence to Liquid Box",
-    "baseUrl": "{{localBaseUrl}}",
+    "baseUrl": "https://liquidanimation.live/LiquidBoxConnector",
     "authentication": {
         "type": "jwt"
     },
